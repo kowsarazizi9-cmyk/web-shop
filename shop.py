@@ -10,3 +10,4 @@ class product:
 # wip 1
 # wip 2
 # A
+print("A")# A
