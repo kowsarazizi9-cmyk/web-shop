@@ -3,4 +3,4 @@
 # Tis is a test
 # Tis is aa
 Run tests with: python -m pytest -q
-An online shop for learning Git.
+A small online shop written in Python.
