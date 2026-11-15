@@ -12,13 +12,13 @@ print("A")# A
 def apply_discount(price, percent):
     return price * (100 - percent) / 100
 
+
 def add_tax(price, rate=0.15):
     return price * (1+rate)
 
-feature/promo
+
 def apply_coupon(price):
     return price - 5
 
 def search_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
-main
