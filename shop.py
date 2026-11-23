@@ -10,6 +10,7 @@ class Product:
 # A
 print("A")# A
 def apply_discount(price, percent):
+    percent =min(percent, 100)
     return price * (100 - percent) / 100
 
 
