@@ -35,3 +35,6 @@ def format_price(price):
 
 def list_names(products):
     return [p.name for p in products]
+
+def count_products(products):
+    return len(products)
