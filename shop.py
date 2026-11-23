@@ -18,7 +18,7 @@ def add_tax(price, rate=0.15):
 
 
 def apply_coupon(price):
-    return price - 5
+    return max(price - 5, 0)
 
 def search_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
